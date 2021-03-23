@@ -1,4 +1,4 @@
-//connects "guess" button to "random" function
+// connects "guess" button to "random" function
 document.getElementById('button').addEventListener('click', randomizer)
 let randomNumber = 0
 let userGuess = 0
