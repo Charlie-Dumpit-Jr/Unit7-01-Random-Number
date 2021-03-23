@@ -1,4 +1,3 @@
-
 //connects "guess" button to "random" function
 document.getElementById('button').addEventListener('click', randomizer)
 let randomNumber = 0
@@ -11,7 +10,7 @@ function randomizer () {
 
   //generate random number between 1 and 6
   randomNumber = Math.random() * 6 + 1
-  randomNumber = parseInt(userGuess)
+  randomNumber = parseInt(randomNumber)
 
   //compare user's guess with random number 
   if (userGuess == randomNumber) {
